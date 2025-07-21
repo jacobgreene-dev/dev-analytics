@@ -14,8 +14,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #083c5d;
+    --foreground: #328cc1;
+    --accent: #D9b310;
+    --muted: #ededed;
   }
 }
 
@@ -29,4 +31,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-figtree-sans), var(--font-jetbrains-mono), sans-serif;
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-muted {
+  color: var(--muted);
 }

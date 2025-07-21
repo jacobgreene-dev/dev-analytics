@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={`${figtreeSans.variable} ${jetbrainsMono.variable} min-h-screen overflow-x-hidden antialiased`}
       >
-        <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
+        <main className="mx-auto mr-9 px-4 py-6">{children}</main>
       </body>
     </html>
   );
