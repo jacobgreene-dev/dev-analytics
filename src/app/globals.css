@@ -40,3 +40,25 @@ body {
 .text-muted {
   color: var(--muted);
 }
+
+#video_wrapper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#video_box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#embed_video video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Figtree, JetBrains_Mono } from "next/font/google";
 
 import "./globals.css";
+import BackgroundVideo from "@/components/Background";
 
 const figtreeSans = Figtree({
   variable: "--font-figtree-sans",
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body
         className={`${figtreeSans.variable} ${jetbrainsMono.variable} min-h-screen overflow-x-hidden antialiased`}
       >
+        <BackgroundVideo />
         <main className="mx-auto mr-9 px-4 py-6">{children}</main>
       </body>
     </html>
